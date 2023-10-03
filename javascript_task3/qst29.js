@@ -7,14 +7,12 @@ function myFilter(myArray, callback) {
   
     return callback(sum);
   }
-  
-  
+   
   function isSumEven(sum) {
     return sum % 2 === 0;
   }
   
- 
-  const myArray = [1, 2, 3, 4, 5];
+   const myArray = [1, 2, 3, 4, 5];
   
   const result = myFilter(myArray, isSumEven);
 
