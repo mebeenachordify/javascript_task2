@@ -1,0 +1,18 @@
+.decrement-button {
+    background-color: #FF5733;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .increment-button {
+    background-color: #33FF57;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
