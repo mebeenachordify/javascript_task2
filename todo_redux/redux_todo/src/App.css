@@ -3,13 +3,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:#62ac41;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:   rgb(181, 17, 17);
 }
 .allTodos{
   list-style: none;
@@ -31,4 +31,14 @@
 .todoText{
   text-align: start;
   flex: 1;
+}
+
+.container {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 100px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

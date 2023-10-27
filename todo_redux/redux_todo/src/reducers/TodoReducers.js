@@ -1,10 +1,10 @@
- const TodoReducer = (state={todos:[] },action)=>{
+ const TodoReducer = (state={tod:[] },action)=>{
     switch (action.type) {
-      case "ADD_TODO":
-        return{todos:action.payload};
+      case "ADD":
+        return{tod:action.payload};
 
-      case "REMOVE_TODO":
-        return{todos:action.payload};
+      case "REMOVE":
+        return{tod:action.payload};
 
     
         default:
